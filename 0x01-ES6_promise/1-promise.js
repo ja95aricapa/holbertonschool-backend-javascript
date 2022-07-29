@@ -1,5 +1,3 @@
-
-
 export default function getResponseFromAPI(success) {
   const thePromise = new Promise((resolve, reject) => {
     if (success === true) {
