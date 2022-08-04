@@ -3,3 +3,7 @@ para el linter:
     1. poner el archivo eslinter.js correspondiente al proyecto
     2. correr npm install
     3. usar npm run lint archivo.js
+
+para el webpack:
+    1. buscar en el package.json el nombre del script que usa webpack (usalmente es start-dev)
+    2. usar npm run start-dev
