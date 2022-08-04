@@ -1,6 +1,6 @@
 ![](https://www.skilltouchng.com/images/compschool_tabs/backend%20develoiper%20training%20in%20abuja%20nigeria%20image.jpg)
 
-# holbertonschool-backend-javascript
+# Holbertonschool-backend-javascript
 
 **Backend Development:** Backend is the server-side of the website. It stores and arranges data, and also makes sure everything on the client-side of the website works fine. It is the part of the website that you cannot see and interact with. It is the portion of software that does not come in direct contact with the users. The parts and characteristics developed by backend designers are indirectly accessed by users through a front-end application. Activities, like writing APIs, creating libraries, and working with system components without user interfaces or even systems of scientific programming, are also included in the backend. 
 
