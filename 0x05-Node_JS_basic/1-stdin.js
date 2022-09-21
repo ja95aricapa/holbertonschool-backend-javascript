@@ -1,12 +1,9 @@
-process.stdin.setEncoding('utf8');
-
-console.log('Welcome to Holberton School, what is your name?');
-
+// Program that gets input from user and writes it to stdout
+process.stdin.setEncoding('utf-8');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 process.stdin.on('readable', () => {
-  const chunk = process.stdin.read();
-  if (chunk !== null) {
-    process.stdout.write(`Your name is: ${chunk}`);
-  }
+  const name = process.stdin.read();
+  if (name) process.stdout.write(`Your name is: ${name}`);
 });
 
 process.stdin.on('end', () => {
